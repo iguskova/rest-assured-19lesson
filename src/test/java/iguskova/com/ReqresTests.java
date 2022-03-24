@@ -17,7 +17,6 @@ public class ReqresTests {
     @BeforeAll
     static void setup(){
         RestAssured.baseURI = "https://reqres.in";
-        RestAssured.filters(new AllureRestAssured());
     }
 
     @Test

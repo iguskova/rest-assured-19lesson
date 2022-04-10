@@ -1,4 +1,4 @@
-package iguskova.com;
+package tests;
 
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
